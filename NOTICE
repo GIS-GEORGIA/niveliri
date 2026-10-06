@@ -1,0 +1,19 @@
+Niveliri - Leveling Calculator
+
+Original idea and original implementation (single-file HTML app):
+  Gogita Shainidze (გოგიტა შაინიძე)
+  Phone: 593 55 10 10
+  Facebook: https://www.facebook.com/geomapping2018
+
+This Flutter port is based on the original application and is published with
+the permission of its author. The calculation methodology, workflow and wording
+originate from his work and must keep this credit.
+
+Flutter port and development:
+  Giorgi Kapanadze (გიორგი კაპანაძე), GIS GEORGIA
+  https://github.com/GIS-GEORGIA
+
+Bundled fonts:
+  Noto Sans Georgian, SIL Open Font License 1.1 (see assets/fonts/OFL.txt).
+  Roboto (PDF fallback for the symbols Σ and √), Apache License 2.0,
+  as shipped with the Flutter SDK.

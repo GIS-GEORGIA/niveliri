@@ -1,0 +1,572 @@
+{
+    "@@locale":  "ka",
+    "appTitle":  "ნიველირის კალკულატორი",
+    "appTagline":  "უბრალოდ უპასუხეთ კითხვებს. სიმაღლეებს აპლიკაცია თვითონ დათვლის.",
+    "projects":  "პროექტები",
+    "noProjects":  "ჯერ პროექტი არ გაქვთ. შექმენით პირველი.",
+    "newMeasurement":  "ახალი გაზომვა",
+    "newMeasurementHint":  "სიმაღლეების გაზომვა წერტილებზე",
+    "newStakeout":  "ახალი დაზუსტება",
+    "newStakeoutHint":  "იატაკის მოჭიმვა, არხი, კანალიზაცია, გზა: რამდენი ამოიღოთ ან შეავსოთ",
+    "settings":  "პარამეტრები",
+    "theme":  "თემა",
+    "themeSystem":  "სისტემის მიხედვით",
+    "themeLight":  "თეთრი",
+    "themeDark":  "მუქი",
+    "language":  "ენა",
+    "about":  "ავტორების შესახებ",
+    "copyright":  "© საავტორო უფლებები დაცულია",
+    "originalAuthorTitle":  "იდეის ავტორი და შემსრულებელი",
+    "originalAuthorName":  "გოგიტა შაინიძე",
+    "phone":  "ტელეფონი",
+    "facebook":  "Facebook",
+    "feedbackNote":  "აღნიშნული იდეის განვითარების ან ხარვეზის გამოვლენის შემთხვევაში, გთხოვთ, დაუკავშირდეთ ზემოთ მითითებულ ნომერზე.",
+    "usedWithPermission":  "აპლიკაცია გადმოტანილია Flutter-ზე იდეის ავტორის ნებართვით.",
+    "developerTitle":  "Flutter-ზე გადატანა და განვითარება",
+    "version":  "ვერსია",
+    "newProjectName":  "ახალი პროექტის სახელი",
+    "projectNameHint":  "მაგ. ეზო, ქუჩა 5",
+    "enterProjectName":  "ჩაწერეთ პროექტის სახელი.",
+    "open":  "გახსნა",
+    "delete":  "წაშლა",
+    "cancel":  "გაუქმება",
+    "save":  "შენახვა",
+    "deleteProjectConfirm":  "პროექტი „{name}“ სამუდამოდ წაიშალოს?",
+    "@deleteProjectConfirm":  {
+                                  "placeholders":  {
+                                                       "name":  {
+                                                                    "type":  "String"
+                                                                }
+                                                   }
+                              },
+    "pointsCount":  "{count} წერტილი",
+    "@pointsCount":  {
+                         "placeholders":  {
+                                              "count":  {
+                                                            "type":  "int"
+                                                        }
+                                          }
+                     },
+    "loadExample":  "მაგალითის ნახვა",
+    "exampleName":  "მაგალითი",
+    "backToProjects":  "პროექტები",
+    "step1Title":  "1️⃣ საწყისი წერტილი",
+    "step1Text":  "აიღეთ წერტილი, რომლის სიმაღლეც უკვე იცით (რეპერი). ლარტყა დადგით მასზე.",
+    "pointName":  "წერტილის სახელი",
+    "pointNameOptional":  "წერტილის სახელი (არასავალდებულო)",
+    "startHeightLabel":  "მისი სიმაღლე (მეტრი)",
+    "rodReadingFirst":  "ნიველირის მილში რა რიცხვი ჩანს ლარტყაზე?",
+    "instrumentHeightIs":  "ნიველირის ხედვის სიმაღლე: {v} მ",
+    "@instrumentHeightIs":  {
+                                "placeholders":  {
+                                                     "v":  {
+                                                               "type":  "String"
+                                                           }
+                                                 }
+                            },
+    "continueBtn":  "გაგრძელება →",
+    "fillHeightAndReading":  "ჩაწერეთ სიმაღლე და ლარტყის რიცხვი.",
+    "fillReading":  "ჩაწერეთ რიცხვი, რომელიც ლარტყაზე ჩანს.",
+    "nextPointTitle":  "📏 შემდეგი წერტილი",
+    "nextPointText":  "ლარტყა გადაიტანეთ შემდეგ წერტილზე. ნიველირს ადგილიდან ჯერ ნუ ამოძრავებთ. რა რიცხვი ჩანს?",
+    "rodNumber":  "რიცხვი ლარტყაზე (მეტრი)",
+    "pointHeightIs":  "ამ წერტილის სიმაღლე: {v} მ",
+    "@pointHeightIs":  {
+                           "placeholders":  {
+                                                "v":  {
+                                                          "type":  "String"
+                                                      }
+                                            }
+                       },
+    "whatNow":  "ახლა რა გინდათ?",
+    "addIntermediate":  "➕ კიდევ ერთი წერტილის გაზომვა",
+    "addIntermediateHint":  "ნიველირი აქვე რჩება",
+    "moveLevel":  "🔄 ნიველირი უნდა გადავიტანო",
+    "moveLevelHint":  "ლარტყა ამ წერტილზე დარჩება!",
+    "lastPoint":  "🏁 ეს ბოლო წერტილია",
+    "currentInstrumentNote":  "ნიველირის ხედვის სიმაღლე ახლა: {v} მ (თვითონ ითვლება)",
+    "@currentInstrumentNote":  {
+                                   "placeholders":  {
+                                                        "v":  {
+                                                                  "type":  "String"
+                                                              }
+                                                    }
+                               },
+    "moveTitle":  "🔄 ნიველირი გადაიტანეთ",
+    "moveText":  "ლარტყა დარჩა წერტილზე {name} ({v} მ). ნიველირი დააყენეთ ახალ ადგილას. ახლა იმავე ლარტყაზე რა რიცხვი ჩანს?",
+    "@moveText":  {
+                      "placeholders":  {
+                                           "name":  {
+                                                        "type":  "String"
+                                                    },
+                                           "v":  {
+                                                     "type":  "String"
+                                                 }
+                                       }
+                  },
+    "newInstrumentHeightIs":  "ახალი ხედვის სიმაღლე: {v} მ",
+    "@newInstrumentHeightIs":  {
+                                   "placeholders":  {
+                                                        "v":  {
+                                                                  "type":  "String"
+                                                              }
+                                                    }
+                               },
+    "moveNote":  "ამის შემდეგ ლარტყა წაიღეთ შემდეგ წერტილზე.",
+    "doneTitle":  "🎉 გაზომვა დასრულებულია",
+    "doneText":  "ყველა წერტილის სიმაღლე ჩანს ქვემოთ.",
+    "closingCheck":  "ჩაკეტვის შემოწმება",
+    "noKnownEnd":  "ბოლო რეპერის სიმაღლე არ არის მითითებული, ამიტომ ჩაკეტვის შემოწმება არ ხდება.",
+    "needLength":  "ჩაწერეთ გავლილი მანძილი (კმ), რომ დასაშვებს შევადაროთ.",
+    "needTolerance":  "ჩაწერეთ დასაშვები ცდომილება (მმ).",
+    "closingDiff":  "განსხვავება: {mm} მმ (დასაშვებია {allowed} მმ)",
+    "@closingDiff":  {
+                         "placeholders":  {
+                                              "mm":  {
+                                                         "type":  "String"
+                                                     },
+                                              "allowed":  {
+                                                              "type":  "String"
+                                                          }
+                                          }
+                     },
+    "closingDiffOnly":  "განსხვავება: {mm} მმ",
+    "@closingDiffOnly":  {
+                             "placeholders":  {
+                                                  "mm":  {
+                                                             "type":  "String"
+                                                         }
+                                              }
+                         },
+    "closingOk":  "✔ გაზომვა ზუსტია",
+    "closingBad":  "✘ ცდომილება დიდია – გაზომვა გაიმეორეთ",
+    "editClosing":  "✏ ბოლო რეპერის ან ცდომილების შეცვლა",
+    "pointsAndHeights":  "წერტილები და მათი სიმაღლეები",
+    "undoLast":  "ბოლოს გაუქმება",
+    "resetAll":  "თავიდან დაწყება",
+    "resetConfirm":  "ყველაფერი წაიშალოს და თავიდან დაიწყოს?",
+    "paramsTitle":  "⚙ პარამეტრები",
+    "paramsSubtitle":  "რეპერები და ცდომილება",
+    "startBenchmarkName":  "საწყისი რეპერის სახელი",
+    "startBenchmarkHeight":  "საწყისი რეპერის სიმაღლე (მ)",
+    "endKnownHeight":  "ბოლო რეპერის ცნობილი სიმაღლე (მ) – არასავალდებულო",
+    "skip":  "გამოტოვება",
+    "skipHint":  "გამოტოვება შეიძლება",
+    "toleranceTitle":  "ცდომილების დასაშვები ზღვარი",
+    "tolFormula":  "ფორმულით: c × √L",
+    "tolFixed":  "ფიქსირებული მნიშვნელობა (მმ)",
+    "coefficientC":  "კოეფიციენტი c (მმ)",
+    "lengthKm":  "სვლის სიგრძე L (კმ)",
+    "allowedMm":  "დასაშვები ცდომილება (მმ)",
+    "tolFormulaNote":  "დასაშვები ცდომილება = c × √L. მაგ. c = 10, 12, 20 ან 50, თქვენი ნორმატივის მიხედვით.",
+    "correctedHeight":  "გასწორებული: {v}",
+    "@correctedHeight":  {
+                             "placeholders":  {
+                                                  "v":  {
+                                                            "type":  "String"
+                                                        }
+                                              }
+                         },
+    "editPoint":  "✏ წერტილის რედაქტირება",
+    "editPointHint":  "ცვლილება მყისვე გადაითვლება ყველაფერზე",
+    "readingOnRod":  "ათვლა ლარტყაზე (მ)",
+    "knownHeightOptional":  "ამ წერტილის ცნობილი სიმაღლე (მ) – არასავალდებულო",
+    "fsLabel":  "წინ ათვლა – ლარტყა ამ წერტილზე, ძველი დგომიდან (მ)",
+    "bsLabel":  "უკან ათვლა – იმავე ლარტყაზე, ახალი დგომიდან (მ)",
+    "deletePoint":  "წერტილის წაშლა",
+    "deletePointConfirm":  "ეს შუალედური წერტილი წაიშალოს?",
+    "close":  "დახურვა",
+    "sameLevel":  "🎯 ერთ სიმაღლეზეა",
+    "cmUp":  "⬆ {v} სმ მაღლა",
+    "@cmUp":  {
+                  "placeholders":  {
+                                       "v":  {
+                                                 "type":  "String"
+                                             }
+                                   }
+              },
+    "cmDown":  "⬇ {v} სმ დაბლა",
+    "@cmDown":  {
+                    "placeholders":  {
+                                         "v":  {
+                                                   "type":  "String"
+                                               }
+                                     }
+                },
+    "vsStart":  "საწყის რეპერთან: {c}",
+    "@vsStart":  {
+                     "placeholders":  {
+                                          "c":  {
+                                                    "type":  "String"
+                                                }
+                                      }
+                 },
+    "vsTurn":  "გარდამავალ {name}-თან: {c}",
+    "@vsTurn":  {
+                    "placeholders":  {
+                                         "name":  {
+                                                      "type":  "String"
+                                                  },
+                                         "c":  {
+                                                   "type":  "String"
+                                               }
+                                     }
+                },
+    "vsEnd":  "ბოლო რეპერთან: {c}",
+    "@vsEnd":  {
+                   "placeholders":  {
+                                        "c":  {
+                                                  "type":  "String"
+                                              }
+                                    }
+               },
+    "defaultEndName":  "ბოლო",
+    "metersShort":  "მ",
+    "stakeTip":  "🎯 დაზუსტება: ჩაწერეთ, რა სიმაღლე უნდა იყოს საწყის წერტილზე და რა ქანობით უნდა იცვლებოდეს მანძილის მიხედვით. იატაკისთვის ქანობი 0 დატოვეთ.",
+    "designStartLabel":  "საპროექტო სიმაღლე საწყის წერტილში (მ)",
+    "slopePercent":  "ქანობი (%)",
+    "slopeDirection":  "მიმართულება",
+    "descending":  "დაღმავალი (−)",
+    "ascending":  "აღმავალი (+)",
+    "slopeNote":  "0.5% = 5 მმ ყოველ 1 მეტრზე.",
+    "stakeToleranceLabel":  "დასაშვები გადახრა (მმ)",
+    "enterDesign":  "ჩაწერეთ საპროექტო სიმაღლე.",
+    "chainageLabel":  "მანძილი საწყისი წერტილიდან (მ)",
+    "chainageLabelOptional":  "მანძილი საწყისი წერტილიდან (მ) – არასავალდებულო",
+    "designHeightIs":  "საპროექტო სიმაღლე: {v} მ",
+    "@designHeightIs":  {
+                            "placeholders":  {
+                                                 "v":  {
+                                                           "type":  "String"
+                                                       }
+                                             }
+                        },
+    "rodShouldShow":  "ლარტყაზე უნდა ჩანდეს: {v}",
+    "@rodShouldShow":  {
+                           "placeholders":  {
+                                                "v":  {
+                                                          "type":  "String"
+                                                      }
+                                            }
+                       },
+    "actualHeightIs":  "ფაქტიური სიმაღლე: {v} მ",
+    "@actualHeightIs":  {
+                            "placeholders":  {
+                                                 "v":  {
+                                                           "type":  "String"
+                                                       }
+                                             }
+                        },
+    "verdictExact":  "✔ ზუსტია ({mm} მმ)",
+    "@verdictExact":  {
+                          "placeholders":  {
+                                               "mm":  {
+                                                          "type":  "String"
+                                                      }
+                                           }
+                      },
+    "verdictRemove":  "⬇ ამოიღეთ {mm} მმ",
+    "@verdictRemove":  {
+                           "placeholders":  {
+                                                "mm":  {
+                                                           "type":  "String"
+                                                       }
+                                            }
+                       },
+    "verdictFill":  "⬆ შეავსეთ {mm} მმ",
+    "@verdictFill":  {
+                         "placeholders":  {
+                                              "mm":  {
+                                                         "type":  "String"
+                                                     }
+                                          }
+                     },
+    "designShort":  "საპროექტო {v}",
+    "@designShort":  {
+                         "placeholders":  {
+                                              "v":  {
+                                                        "type":  "String"
+                                                    }
+                                          }
+                     },
+    "stakeParams":  "დაზუსტების პარამეტრები",
+    "exportTitle":  "შენახვა",
+    "exportPdf":  "PDF",
+    "exportXlsx":  "Excel",
+    "exportShare":  "გაზიარება",
+    "exportNote":  "გაზიარებით ფაილს პირდაპირ გაგზავნით WhatsApp-ით, Viber-ით, Telegram-ით, მეილით და სხვა აპლიკაციებით.",
+    "exportSaved":  "ფაილი შენახულია: {name}",
+    "@exportSaved":  {
+                         "placeholders":  {
+                                              "name":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "exportShared":  "გაზიარების ფანჯარა გაიხსნა.",
+    "exportError":  "შეცდომა: {e}",
+    "@exportError":  {
+                         "placeholders":  {
+                                              "e":  {
+                                                        "type":  "String"
+                                                    }
+                                          }
+                     },
+    "reportProject":  "პროექტი: {name}",
+    "@reportProject":  {
+                           "placeholders":  {
+                                                "name":  {
+                                                             "type":  "String"
+                                                         }
+                                            }
+                       },
+    "reportJournal":  "ნიველირის ჟურნალი",
+    "reportDate":  "თარიღი",
+    "reportStartPoint":  "საწყისი წერტილი (რეპერი)",
+    "reportHeightM":  "სიმაღლე (მ)",
+    "reportDesignAtStart":  "საპროექტო სიმაღლე საწყის წერტილში",
+    "reportSlope":  "ქანობი (%)",
+    "reportTolerance":  "დასაშვები გადახრა (მმ)",
+    "legendTitle":  "განმარტება",
+    "howCalculated":  "როგორ დავთვალეთ",
+    "howCalculatedPerPoint":  "როგორ დავთვალეთ (თითოეული წერტილი)",
+    "controlTitle":  "კონტროლი (როგორ შევამოწმეთ)",
+    "typeStart":  "საწყისი წერტილი (რეპერი)",
+    "typeIntermediate":  "შუალედური წერტილი",
+    "typeTurning":  "გარდამავალი (ნიველირი აქ გადაიტანეს)",
+    "typeEnd":  "ბოლო წერტილი",
+    "colNo":  "#",
+    "colPoint":  "წერტილი",
+    "colType":  "ტიპი",
+    "colBacksight":  "ათვლა უკან (BS)",
+    "colIntermediate":  "შუალედური ათვლა",
+    "colForesight":  "ათვლა წინ (FS)",
+    "colInstrument":  "ნიველირის ხედვის სიმაღლე",
+    "colPointHeight":  "წერტილის სიმაღლე (მ)",
+    "colAdjusted":  "გასწორებული სიმაღლე (მ)",
+    "colChainage":  "მანძილი დასაწყისიდან (მ)",
+    "colRodReading":  "ათვლა ლარტყაზე",
+    "colActualHeight":  "ფაქტიური სიმაღლე (მ)",
+    "colDesignHeight":  "საპროექტო სიმაღლე (მ)",
+    "colShouldRead":  "ლარტყაზე უნდა ჩანდეს",
+    "colDeviation":  "გადახრა (მმ): + ამოიღეთ, − შეავსეთ",
+    "colAction":  "ქმედება",
+    "actExact":  "ზუსტია",
+    "actRemove":  "ამოიღეთ",
+    "actFill":  "შეავსეთ",
+    "legendM1":  "საწყისი – ცნობილი სიმაღლის წერტილი (რეპერი), საიდანაც იწყება გაზომვა.",
+    "legendM2":  "შუალედური – ჩვეულებრივი წერტილი, ნიველირი ადგილიდან არ გადაუტანიათ.",
+    "legendM3":  "გარდამავალი – წერტილი, რომელზეც ლარტყა დარჩა და ნიველირი გადაიტანეს.",
+    "legendM4":  "ბოლო – გაზომვის ბოლო წერტილი.",
+    "legendM5":  "ათვლა უკან (BS) – რიცხვი ლარტყაზე, როცა ლარტყა ცნობილი სიმაღლის წერტილზე დგას.",
+    "legendM6":  "შუალედური ათვლა – რიცხვი ლარტყაზე შუალედურ წერტილზე, ნიველირი ადგილიდან არ გადაუტანიათ.",
+    "legendM7":  "ათვლა წინ (FS) – რიცხვი ლარტყაზე გარდამავალ ან ბოლო წერტილზე.",
+    "legendM8":  "ნიველირის ხედვის სიმაღლე – სიმაღლე, რომელზეც ნიველირის ხედვის ხაზი გადის (წერტილის სიმაღლე + უკან ათვლა).",
+    "legendM9":  "წერტილის სიმაღლე (მ) – წერტილის გამოთვლილი სიმაღლე მეტრებში.",
+    "legendM10":  "გასწორებული სიმაღლე (მ) – სიმაღლე ცდომილების გასწორების შემდეგ. ჩანს მხოლოდ მაშინ, როცა ბოლო რეპერის სიმაღლე მითითებულია.",
+    "legendS1":  "მანძილი დასაწყისიდან (მ) – მანძილი საწყისი წერტილიდან, მეტრებში.",
+    "legendS2":  "ათვლა ლარტყაზე – რიცხვი, რომელიც ლარტყაზე ჩანდა.",
+    "legendS3":  "ფაქტიური სიმაღლე (მ) – სიმაღლე, რომელიც ნამდვილად გაზომეთ.",
+    "legendS4":  "საპროექტო სიმაღლე (მ) – სიმაღლე, რომელიც უნდა იყოს (საწყისი სიმაღლე და ქანობი × მანძილი).",
+    "legendS5":  "ლარტყაზე უნდა ჩანდეს – რიცხვი, რომელიც ლარტყაზე უნდა ჩანდეს, თუ წერტილი საპროექტო სიმაღლეზეა.",
+    "legendS6":  "გადახრა (მმ) – ფაქტიური და საპროექტო სიმაღლის სხვაობა. პლუსი (+) – ფაქტიური საპროექტოზე მაღლაა, ამოიღეთ. მინუსი (−) – დაბლაა, შეავსეთ.",
+    "legendS7":  "ქმედება – რა უნდა გააკეთოთ: ამოიღეთ, შეავსეთ ან ზუსტია.",
+    "stepStart":  "{pn}: სიმაღლე ცნობილია = {start}. ხედვის სიმაღლე = {start} + {bs} (უკან ათვლა) = {hi}",
+    "@stepStart":  {
+                       "placeholders":  {
+                                            "pn":  {
+                                                       "type":  "String"
+                                                   },
+                                            "start":  {
+                                                          "type":  "String"
+                                                      },
+                                            "bs":  {
+                                                       "type":  "String"
+                                                   },
+                                            "hi":  {
+                                                       "type":  "String"
+                                                   }
+                                        }
+                   },
+    "stepIntermediate":  "{pn}: სიმაღლე = {hp} (ხედვის სიმაღლე) − {r} (ათვლა) = {rr}",
+    "@stepIntermediate":  {
+                              "placeholders":  {
+                                                   "pn":  {
+                                                              "type":  "String"
+                                                          },
+                                                   "hp":  {
+                                                              "type":  "String"
+                                                          },
+                                                   "r":  {
+                                                             "type":  "String"
+                                                         },
+                                                   "rr":  {
+                                                              "type":  "String"
+                                                          }
+                                               }
+                          },
+    "stepTurning":  "{pn}: სიმაღლე = {hp} (ხედვის სიმაღლე) − {fs} (წინ ათვლა) = {rr}. ნიველირი გადაიტანეს. ახალი ხედვის სიმაღლე = {rr} + {bs} (უკან ათვლა) = {hi}",
+    "@stepTurning":  {
+                         "placeholders":  {
+                                              "pn":  {
+                                                         "type":  "String"
+                                                     },
+                                              "hp":  {
+                                                         "type":  "String"
+                                                     },
+                                              "fs":  {
+                                                         "type":  "String"
+                                                     },
+                                              "rr":  {
+                                                         "type":  "String"
+                                                     },
+                                              "bs":  {
+                                                         "type":  "String"
+                                                     },
+                                              "hi":  {
+                                                         "type":  "String"
+                                                     }
+                                          }
+                     },
+    "stepEnd":  "{pn}: სიმაღლე = {hp} (ხედვის სიმაღლე) − {fs} (წინ ათვლა) = {rr}",
+    "@stepEnd":  {
+                     "placeholders":  {
+                                          "pn":  {
+                                                     "type":  "String"
+                                                 },
+                                          "hp":  {
+                                                     "type":  "String"
+                                                 },
+                                          "fs":  {
+                                                     "type":  "String"
+                                                 },
+                                          "rr":  {
+                                                     "type":  "String"
+                                                 }
+                                      }
+                 },
+    "stepAdjusted":  "გასწორებული = {rr} − ({e} × {setup}/{cnt}) = {cor}",
+    "@stepAdjusted":  {
+                          "placeholders":  {
+                                               "rr":  {
+                                                          "type":  "String"
+                                                      },
+                                               "e":  {
+                                                         "type":  "String"
+                                                     },
+                                               "setup":  {
+                                                             "type":  "String"
+                                                         },
+                                               "cnt":  {
+                                                           "type":  "String"
+                                                       },
+                                               "cor":  {
+                                                           "type":  "String"
+                                                       }
+                                           }
+                      },
+    "stepDesign":  "საპროექტო = {d0} + ({slope}% × {ch} მ) = {d}",
+    "@stepDesign":  {
+                        "placeholders":  {
+                                             "d0":  {
+                                                        "type":  "String"
+                                                    },
+                                             "slope":  {
+                                                           "type":  "String"
+                                                       },
+                                             "ch":  {
+                                                        "type":  "String"
+                                                    },
+                                             "d":  {
+                                                       "type":  "String"
+                                                   }
+                                         }
+                    },
+    "stepStake":  "ლარტყაზე უნდა ჩანდეს = {hp} − {d} = {need}. გადახრა = {rr} − {d} = {dev} მმ ({act})",
+    "@stepStake":  {
+                       "placeholders":  {
+                                            "hp":  {
+                                                       "type":  "String"
+                                                   },
+                                            "d":  {
+                                                      "type":  "String"
+                                                  },
+                                            "need":  {
+                                                         "type":  "String"
+                                                     },
+                                            "rr":  {
+                                                       "type":  "String"
+                                                   },
+                                            "dev":  {
+                                                        "type":  "String"
+                                                    },
+                                            "act":  {
+                                                        "type":  "String"
+                                                    }
+                                        }
+                   },
+    "chkSumBs":  "ΣBS (უკან ათვლების ჯამი)",
+    "chkSumFs":  "ΣFS (წინ ათვლების ჯამი)",
+    "chkDiffSums":  "სხვაობა ΣBS − ΣFS",
+    "chkEndMinusStart":  "ბოლო წერტილი − საწყისი",
+    "chkVerify":  "შემოწმება",
+    "chkVerifyOk":  "ორივე სხვაობა ერთნაირია, გამოთვლა სწორია",
+    "chkVerifyBad":  "სხვაობები არ ემთხვევა, გადაამოწმეთ ჩანაწერები",
+    "chkKnownEnd":  "ბოლო წერტილის ცნობილი სიმაღლე",
+    "chkError":  "ცდომილება",
+    "chkErrorValue":  "{calc} (გამოთვლილი) − {known} (ცნობილი) = {e} მ = {mm} მმ",
+    "@chkErrorValue":  {
+                           "placeholders":  {
+                                                "calc":  {
+                                                             "type":  "String"
+                                                         },
+                                                "known":  {
+                                                              "type":  "String"
+                                                          },
+                                                "e":  {
+                                                          "type":  "String"
+                                                      },
+                                                "mm":  {
+                                                           "type":  "String"
+                                                       }
+                                            }
+                       },
+    "chkAllowed":  "დასაშვები ცდომილება",
+    "chkAllowedFormula":  "{c} × √{l} = {a} მმ",
+    "@chkAllowedFormula":  {
+                               "placeholders":  {
+                                                    "c":  {
+                                                              "type":  "String"
+                                                          },
+                                                    "l":  {
+                                                              "type":  "String"
+                                                          },
+                                                    "a":  {
+                                                              "type":  "String"
+                                                          }
+                                                }
+                           },
+    "chkAllowedFixed":  "{a} მმ (ფიქსირებული)",
+    "@chkAllowedFixed":  {
+                             "placeholders":  {
+                                                  "a":  {
+                                                            "type":  "String"
+                                                        }
+                                              }
+                         },
+    "chkConclusion":  "დასკვნა",
+    "chkConclOk":  "ცდომილება დასაშვებია",
+    "chkConclBad":  "ცდომილება აჭარბებს დასაშვებს, გაზომვა გაიმეორეთ",
+    "chkAdjust":  "გასწორება",
+    "chkAdjustValue":  "ცდომილება თანაბრად ნაწილდება {n} დგომაზე: ყოველ დგომაზე {mm} მმ",
+    "@chkAdjustValue":  {
+                            "placeholders":  {
+                                                 "n":  {
+                                                           "type":  "String"
+                                                       },
+                                                 "mm":  {
+                                                            "type":  "String"
+                                                        }
+                                             }
+                        }
+}
