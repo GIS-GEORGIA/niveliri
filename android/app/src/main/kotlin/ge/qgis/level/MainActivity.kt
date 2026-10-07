@@ -1,4 +1,4 @@
-package ge.niveliri.niveliri
+package ge.qgis.level
 
 import io.flutter.embedding.android.FlutterActivity
 
